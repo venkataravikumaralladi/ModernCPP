@@ -3,6 +3,8 @@ C++ IO system is provided by IO component of C++ library and is based on streams
 
 cin and cout are build int standard streams that opens automatically and connects to standard input device (keyboard) and output device (monitor).
 
+Redirection of input and output to diffent streams template is shown in `redirect_io_template.cpp`
+
 High level overview of class diagram for input stream is shown below.
 
 ![image](https://user-images.githubusercontent.com/10434795/150637407-8987bb13-01b9-42a9-8855-64bdbea4c618.png)
