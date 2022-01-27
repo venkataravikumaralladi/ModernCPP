@@ -27,3 +27,7 @@ High level overview of class diagram for input stream is shown below.
         operator<< is a binary operator <br>
         std::endl (in std namespace) to go to the new line <br>
         std::endl is stream manipulator (newline) functor <br>
+
+### Basic notes on `cin` and `getline`
+`getline` does not ignore leading whitespace characters, you should take special care when using it in conjunction with `cin >>`. The problem is `cin >>` leaves the newline character `(\n)` in the iostream.  If getline is used after `cin>>`, the `getline` sees this newline character as leading whitespace, thinks it is finished and stops
+reading any further. Though `getline` reads `\n` character it ignores while writing to ouput stream.
