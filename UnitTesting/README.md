@@ -1,2 +1,3 @@
-### ModernCPP
-This repository contains my notes on modern CPP.
+### Unit testing basics
+Most of the literature available from unit testing is from application point of view. Here we will learn how we can apply these techniques from embedded development point of view. In embedded product most of the times hardware and software development happens parallely. So software developers put their ideas in document or code a lot and wait for hardware to provided for testing purpose. If bug is found there is argument on where bug is, hardware or software meetings, talk, argue etc. Unit testing ideas plays an important role here. We can use the techniques from unit testing framework needed to test code that interacts with other modules in the system. We can stub out the dependencies of the code under test. We will use ideas test double and a mock object, both important to being able to thoroughly test-drive your code.
+
