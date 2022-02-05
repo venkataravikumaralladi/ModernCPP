@@ -5,4 +5,4 @@ automated test cases that keep the code working. Test-Driven Development is not 
 
 ![image](https://user-images.githubusercontent.com/10434795/152630601-9082acb4-da92-4eea-9dc1-5faaadd3be22.png)
 
-
+From embedded software development perspective TDD helps to isolate hardware/software interaction issues by modeling hardware interactions in the tests. Improve software design through the decoupling of modules from each other and the hardware. Testable code is, by necessity, modular.
