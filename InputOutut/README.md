@@ -12,21 +12,21 @@ High level overview of class diagram for input stream is shown below.
 
 ### Basic difference between C IO module and C++ IO module
 #####  C IO System <br>
-        IO Header is stdio.h <br>
-        printf to print to console <br>
-        Console is stdout <br>
-        printf is a variadic function <br>
-        \n to go to the new line <br>
-        \n is escaped new line character <br>
+        IO Header is stdio.h
+        printf to print to console
+        Console is stdout
+        printf is a variadic function
+        \n to go to the new line
+        \n is escaped new line character
 
 
   ##### C++ IO System <br>
-        IO Header is iostream <br>
-        operator<< to stream to console <br>
-        Console is std::cout ostream (in std namespace) <br>
-        operator<< is a binary operator <br>
-        std::endl (in std namespace) to go to the new line <br>
-        std::endl is stream manipulator (newline) functor <br>
+        IO Header is iostream 
+        operator<< to stream to console
+        Console is std::cout ostream (in std namespace)
+        operator<< is a binary operator
+        std::endl (in std namespace) to go to the new line
+        std::endl is stream manipulator (newline) functor
 
 ### Basic notes on `cin` and `getline`
 `getline` does not ignore leading whitespace characters, you should take special care when using it in conjunction with `cin >>`. The problem is `cin >>` leaves the newline character `(\n)` in the iostream.  If getline is used after `cin>>`, the `getline` sees this newline character as leading whitespace, thinks it is finished and stops
