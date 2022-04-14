@@ -1,0 +1,16 @@
+# simulation values for cswi logical unit.
+# Data attribute origin and its data type is Struct
+# orcat is member of origin data type Struct and type is INTEGER
+cswi_pos_origin_orcat=91
+# orIdent is member of origin data type Struct and type is OCTETSTRING
+cswi_pos_origin_orident=92
+# Data attribute ctlNum and its data type is INT8U
+cswi_pos_ctlnum=93
+# Data attribute stVal and its data type is Dbpos which is enum
+# values can be intermediate-state= 0, off=1, on=2, bad-state=3
+#               stop=4, lower=5, higher=6, and reserved=7
+cswi_pos_stval=4
+# Data attribute q and its data type is Quality which is BITSTRING
+cswi_pos_q=95
+# Data attribute stSeld and its data type id BOOLEAN
+cswi_pos_stseld=1
