@@ -31,3 +31,9 @@ High level overview of class diagram for input stream is shown below.
 ### Basic notes on `cin` and `getline`
 `getline` does not ignore leading whitespace characters, you should take special care when using it in conjunction with `cin >>`. The problem is `cin >>` leaves the newline character `(\n)` in the iostream.  If getline is used after `cin>>`, the `getline` sees this newline character as leading whitespace, thinks it is finished and stops
 reading any further. Though `getline` reads `\n` character it ignores while writing to ouput stream.
+
+`redirect_io_template.cpp` file provides a template on how to redirect input/output from one source (eg console) to another input/output source (eg to file).
+`file_parsing_util.cpp` file provides an example on how to read a line by line from file and parse the line for required information in C++ and C.
+
+
+        
