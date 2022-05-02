@@ -17,6 +17,18 @@ The strength of TDD is its ability to let you move forward in the face of incomp
 continual experimentation, discovery, and refinement. It’s a good idea that promotes focusing on the `behavior` of the tests, instead of centering tests
 around functions.
 
+From embedded point of view with out TDD We spent many an evening in central offices sitting on concrete floors with oscilloscopes, logic analyzers, etc. to debug problems.
+
+`Well - structured tests become a form of executable and unambiguous documentation. A working example is worth 1,000 words.` Test-Driven Development is not a testing technique, although you do write a lot of valuable automated tests. It is a way to solve programming problems. It helps software developers make good design decisions.
+Tests provide a clear warning when the solution takes a wrong path or breaks some forgotten constraint. Tests capture the production code’s desired behavior.
+
+Improve software design through the decoupling of modules from each other and the hardware. Testable code is, by necessity, modular. 
+
+Tests capture assumptions, constraints, and illustrate representative usage. When new code violates a constraint or assumption, the tests fail.
+
+TDD helps get code working in the first place, but the bigger payoff is in the future, where it supports future developers in understanding the code and keeping it working. Code can be (almost) fearlessly changed.
+
+
 ### Is TDD Test-Driving or Testing? :
 
 The most important consideration in TDD is that we are test-driving, not testing. Using a testing technique, you would seek to exhaustively analyze the specification
