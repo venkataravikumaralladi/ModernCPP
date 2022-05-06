@@ -39,3 +39,12 @@ in question (and possibly the code) and devise tests that exhaustively cover the
 One other possible outcome during a test run is a crash. Generally speaking, C is not a safe language. The code can go off into the weeds, never to return. sprintf( ) is a dangerous function. If you pass it an output buffer that is too small, it will corrupt memory. This error might crash the system now. It might crash later. The behavior is undefined. Consequently, a test run may silently exit with an OK, silently exit early showing no errors, or crash with a bang.
 
 When you have a silent failing or crashing test, let the test harness help you confirm what is wrong. Sometimes a production code change will cause a previously passing test to fail, or even crash. So, before chasing the crash, make sure you know which test is failing. Because the test harness is normally quiet except for test failures, when a test crashes, you probably won’t get any useful output. Test harness tools like google test, Unity and CppUTest have a command-line option for running the test in verbose mode (-v). With -v, each TEST( ) announces itself before running. Conveniently, the last TEST( ) mentioned is the one that crashed. You can also filter tests by test group (-g testgroup) and test case (-n testname). This lets you get very precise about which test cases are running. These are very helpful for chasing down crashes.
+
+### Unit test case has four phases:
+    The four phases:
+        • Setup: Establish the preconditions to the test.
+        • Exercise: Do something to the system.
+        • Verif y: Check the expected outcome.
+        • Cleanup: Return the system under test to its initial state after the test.
+        
+To keep your tests clear, make the above steps visible in your tests.
