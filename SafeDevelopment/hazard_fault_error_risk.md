@@ -25,3 +25,26 @@ Differentiating between faults, errors, and failures allows us to tackle them in
 into the system, to detect and remove faults before they become errors, to detect errors and prevent them from becoming failures and, if a failure 
 does occur, to handle it in the safest way possible. If we able to detect error we can handle them before causing failure by moving the system
 to pre-correct state or pre-defined fixed state.
+
+#### Hazard and risk analysis table
+
+
+Fault->error->failure->hazard->risk. Once hazards are idenfied, hazards give raise to risks Table consists of below columns
+
+|Hazard | Level of risk | Tolerance Time | Fault | Likelihood | Detection time | Reaction or control means (Safety requirement| Exposure time | <br>
+
+ 
+
+Methods for identifying hazards and risks are
+
+i. HAZOP (hazard and operability study) <br>
+ii.HACCP (hazard analysis and critical control points) <br>
+
+ Approaches for mitigating risks are
+
+i. ALARP (as low as reasonably practicable) <br>
+ii. GAMAB means globally at least as good. <br>
+
+One type of risk that `must not be neglected` during the hazard and risk analysis is that arising from security hazards. In principle, once an attacker has exploited a security weakness to get access to a system, the behaviour that can be caused is unpredictable and, in that sense, can be likened to random hardware failures or software Heisenbugs.
+
+ 
