@@ -1,5 +1,22 @@
 ### General safety software design idea
 
+#### Creating software safety requirments
+
+Building software systems are not easy, especially safe software systems are even harder.  Design hazards must be added to hazard analysis and tracker during development process.
+
+Safety requirements can account for most of the complexity of the system. The process of construction safe systems can be broken up into multistep plan as shown below. Following is approach used to create safety requirements.
+
+1. Identify the hazards
+2. Determine the risks
+3. Define the safety measure like documenting, educating, Alarm, internal checking to name a few
+4. Create safe requirements
+5. Create safe designs example like build in power-on and periodic run-time tests to identify latent faults.
+6. Implement safety like language selection, strong compile time checking, run-time checking, exception handling.
+7. Follow safety process
+8. Test
+
+
+#### embedded software design
  
 The embedded software is divided into two parts: safety related part and non-safety related part. 
 These two parts are totally isolated to make sure they will not affect each other.  Now a days one single board which has multi core processor,
