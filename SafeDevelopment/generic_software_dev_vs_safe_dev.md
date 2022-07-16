@@ -25,5 +25,14 @@ security arguments can change overnight. Safety and security should be balanced 
 Heavy dependency on testing at end of product development cycle is an example of poor safety culture. (Reference ISO 26262-2 standard). For safety development right checks at right place should be in place like risk analysis, design verification, error detection (e.g., memory corruption, task missing deadline.). Safety testing includes fault injection testing, unit testing, functional testing, integration testing, black box testing, system testing etc to name a few.
 
  Design is better mentioned in formal notation. If we can express our designs in a mathematical (i.e., formal) language, then it should be possible to reason about universal concepts. Given our system design, we should be able to prove mathematically  that for any combination and sequence of requests and interrupts, the system will continue to make progress and not lock up. Proving the correctness of a system differs from testing it: Testing demonstrates that it works for the particular set of conditions that occurred during the testing, whereas proving demonstrates that it works under all conditions.
+ 
+ #### Availability and Reliability:
+
+ `Availability` Providing an answer within the time that makes it useful.
+
+ `Reliability` providing the right answer. Reliability is achieved by redundancy calculations and comparing the results.
+ 
+Increasing availability generally reduces reliability and vice versa. 
+Much of program testing is really testing reliability, only checking availability in passing.
 
  
