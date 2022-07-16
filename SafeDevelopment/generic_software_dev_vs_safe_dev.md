@@ -1,4 +1,4 @@
-# Generic software development vs Safety software development
+#### Generic software development vs Safety software development
 
 Safety product development is different from general product development like apps for example. In safety product development there are requirements
 like meeting safety standards, development process, performing hazard and risk analysis (like HAZOP), safety case, failure analysis, safety plan/handbook,
@@ -19,5 +19,11 @@ that the system meets the safety requirements. This is usually recorded in safet
 In addition to safety, security is another important non-functional requirement that should be considered in safe product development.
 Safety and security go hand to hand. Safety cannot be achieved with out proper security in place. Safety arguments tend to change slowly, 
 security arguments can change overnight. Safety and security should be balanced in overall design.  
+
+#### How testing is differnt in Safety?
+
+Heavy dependency on testing at end of product development cycle is an example of poor safety culture. (Reference ISO 26262-2 standard). For safety development right checks at right place should be in place like risk analysis, design verification, error detection (e.g., memory corruption, task missing deadline.). Safety testing includes fault injection testing, unit testing, functional testing, integration testing, black box testing, system testing etc to name a few.
+
+ Design is better mentioned in formal notation. If we can express our designs in a mathematical (i.e., formal) language, then it should be possible to reason about universal concepts. Given our system design, we should be able to prove mathematically  that for any combination and sequence of requests and interrupts, the system will continue to make progress and not lock up. Proving the correctness of a system differs from testing it: Testing demonstrates that it works for the particular set of conditions that occurred during the testing, whereas proving demonstrates that it works under all conditions.
 
  
