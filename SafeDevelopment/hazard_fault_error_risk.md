@@ -26,6 +26,8 @@ into the system, to detect and remove faults before they become errors, to detec
 does occur, to handle it in the safest way possible. If we able to detect error we can handle them before causing failure by moving the system
 to pre-correct state or pre-defined fixed state.
 
+In present world where devices are connected to `internet` safety case should be made in context of `security`. A security vulnerability is a fault that does not lead to an error until it is discovered, and then the probability of an error immediately changes from zero to a value close to one. This is different from the behavior of a Heisenbug where the probability of the error is greater than zero, but remains constant.
+
 #### Hazard and risk analysis table
 
 
