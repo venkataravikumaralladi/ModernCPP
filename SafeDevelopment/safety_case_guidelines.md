@@ -24,6 +24,15 @@ it is presented to support is known as the `assurance deficit`."I believe that a
 quantitative notation, such as BBNs, rather than a qualitative notation such as GSN, for expressing the safety case argument.
 With a quantitative notation, the analyst can express the size of the deficit directly in the argument.
 
+
+#### Safety case with securiy
+
 In present world where devices are connected to `internet` safety case should be made in context of `security`. A security vulnerability is a fault that does not lead to an error until it is discovered, and then the probability of an error immediately changes from zero to a value close to one. This is different from the behavior of a Heisenbug where the probability of the error is greater than zero, but remains constant.
+
+#### Safety case  for legacy product
+
+It is sometimes necessary to create a safety case for a product that already exists and for which no safety case was produced during the development. One advantage of retrospective development is that field history exists and it may be possible to base the safety case in part on proven-in-use (PIU) values. "The system has demonstratede `t` hours of field use with `n` failures having occurred; we therefore argue that the system meets the Y level of safety integrity." 
+
+An entire safety case can never be built out of PIU alone, but PIU data can support a powerful sub-argument as long as sufficient history can be demonstrated. Table D.1 in IEC 61508-7 provides a tabulation of the number of hours required to support a PIU argument for different safety integrity levels. 
 
  
