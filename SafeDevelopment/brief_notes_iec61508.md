@@ -31,4 +31,9 @@ My experience is that good process may not always lead to safe product. The fact
 anything about the properties of the product itself. Strong processes need to be enforced during the development of a product, not because that will ensure
 that the product is of good quality, but because, without strong processes, we cannot trust any of the information we need to produce our safety case.
 
+#### Side note
+
+It is often said (and repeated in many standards) that software does not fail randomly -- all software failure is systematic errors (i.e., design error). But it is a fallacy as software also fails randomly in particular for concurrency programs . It is interesting that IEC 61513, one of the nuclear power standards,
+does address this directly. It states: `Since the triggers which activate software faults are encountered at random during system operation,software failures also occur randomly.`
+
  
