@@ -24,4 +24,6 @@ it is presented to support is known as the `assurance deficit`."I believe that a
 quantitative notation, such as BBNs, rather than a qualitative notation such as GSN, for expressing the safety case argument.
 With a quantitative notation, the analyst can express the size of the deficit directly in the argument.
 
+In present world where devices are connected to `internet` safety case should be made in context of `security`. A security vulnerability is a fault that does not lead to an error until it is discovered, and then the probability of an error immediately changes from zero to a value close to one. This is different from the behavior of a Heisenbug where the probability of the error is greater than zero, but remains constant.
+
  
