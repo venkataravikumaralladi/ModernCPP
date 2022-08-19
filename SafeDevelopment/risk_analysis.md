@@ -35,5 +35,5 @@ Once the area of tolerability is decided, Following Fig.  shows how we shall han
 `References` <br>
 
 https://www.gt-engineering.it/en/Insights/the-alarp-principle <br>
-https://www.informit.com/articles/article.aspx?p=2979062&seqNum=5
-
+https://www.informit.com/articles/article.aspx?p=2979062&seqNum=5 <br>
+Book: Reliability, Maintainability and Risk Practical Methods for Engineers, David J Smith
