@@ -8,6 +8,12 @@ To evaluate a risk we have to consider many factors into consideration for hazar
 We can define the risk as ` R = C * P (accident | hazard) * P(hazard)`. From this expression, we see that we can reduce the risk in two ways: by focusing
 on the hazard—prevention, or by preventing the hazard from causing an accident—control. `C` is accident severity.
 
+`Maximum Tolerable Failure Rate` : This involves factoring the maximum tolerable risk according to totally external levels of protection and to circumstances that limit the propagation to fatality of the event. Example: A gas release (e.g., a natural gas holder overfill) is judged to be a scenario leading to a single
+on-site fatality and three off-site fatalities. Both on and off site, person(s) are believed to be exposed to that one risk from the installation.
+
+![image](https://user-images.githubusercontent.com/10434795/185638520-16250519-0b7a-4650-856b-02b994b96491.png)
+
+
 <h3> ALARP </h3>
 
 ALARP (As Low As Reasonable Practical) is one of the risk acceptance technique—we have done all that is reasonable to prevent dangerous events. A reasonable goal is to reduce risk until the extra mitigation cost exceeds the risk reduction value achieved. This leads to a strategy where we assess all risks, rank them, and mitigate as many of the risk causes as economically reasonable. 
