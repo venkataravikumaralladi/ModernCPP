@@ -5,7 +5,8 @@ Building multithreaded code is perhaps the most difficult task in software devel
 
 1. `Seperate threading logic from application logic:` Threading is one concern, and your application logic is another. Keep them seperate as much as possible and minimize the intermingling.
 2. `Throttle down to single-threaded for application specific tests:` Your application code must firest work in a single threaded environment before you introduce threads. Once threads are in place you'll still need to demonstrate that the applicatoin logic works correctly. Providing a way to eliminate concurrency concerns for the application-specific unit tests will help keep code clean. In a sense, testing multithreaded code moves you into realm of intergration testing. To override threading control, you can either design hooks into your application or introduce test doubles.
-3. `Demonstrate concurrency issues before introducing concurrency controls:` Core theme of idea is first write a test that demonstrates a potential concurrency problem and then exacerbating it to the point where the test fails every time. Demonstrating failure first allows you to remain test-driven. You add only the concurrency control that makes the test pass. 
+3. `Demonstrate concurrency issues before introducing concurrency controls:` Core theme of idea is first write a test that demonstrates a potential concurrency problem and then exacerbating it to the point where the test fails every time. Demonstrating failure first allows you to remain test-driven. You add only the concurrency control that makes the test pass.
+4. 
 
 #### Demo template implements following user story
 
